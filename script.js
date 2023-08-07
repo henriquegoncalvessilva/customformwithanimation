@@ -71,7 +71,7 @@ const r = new rive.Rive({
         // btnShow.innerHTML  =  show.value ? '<span class="material-symbols-outlined">visibility_off</span>' : '<span class="material-symbols-outlined">visibility</span>'
     }
     
-    document.onclick = (e) => {e.target != input ? (check.value = false) : "";};
+    document.onclick = (e) => {e.target != inputPassword ? show.value = false : ''};
 
     input.addEventListener("beforeinput", (e) => {oldValue = e.target.value;});
 
