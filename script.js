@@ -42,7 +42,7 @@ const r = new rive.Rive({
                 const modal = document.querySelector('#modalSuccess');
                 modal.remove();
                 btnSubmit.textContent = 'Send'
-            }, 1000);
+            }, 4000);
         }
         
     }
