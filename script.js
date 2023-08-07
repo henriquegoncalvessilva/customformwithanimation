@@ -67,7 +67,11 @@ const r = new rive.Rive({
         check.value = true;
     }
     
-    document.onclick = (e) => {e.target != inputPassword ? show.value = false : ''};
+    document.onclick = (e) => {
+      e.target != inputPassword ? show.value = false : '';
+      e.target != input ? check.value = false : '';
+    }
+      
 
     input.addEventListener("beforeinput", (e) => {oldValue = e.target.value;});
 
