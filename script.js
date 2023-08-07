@@ -48,27 +48,23 @@ const r = new rive.Rive({
     }
     inputPassword.onclick = () =>{
         show.value = true;
-        // btnShow.innerHTML  =  show.value ? '<span class="material-symbols-outlined">visibility_off</span>' : '<span class="material-symbols-outlined">visibility</span>'
     }
 
     inputPassword.onfocus = () =>{
         show.value = true;
-        // btnShow.innerHTML  =  show.value ? '<span class="material-symbols-outlined">visibility_off</span>' : '<span class="material-symbols-outlined">visibility</span>'
     }
+    
     input.onfocus = () =>{
         show.value = false;
-        // btnShow.innerHTML  =  show.value ? '<span class="material-symbols-outlined">visibility_off</span>' : '<span class="material-symbols-outlined">visibility</span>'
     }
     btnSubmit.onfocus = () =>{
         show.value = false;
-        // btnShow.innerHTML  =  show.value ? '<span class="material-symbols-outlined">visibility_off</span>' : '<span class="material-symbols-outlined">visibility</span>'
     }
 
     
     input.onclick = () =>{
         show.value = false;
         check.value = true;
-        // btnShow.innerHTML  =  show.value ? '<span class="material-symbols-outlined">visibility_off</span>' : '<span class="material-symbols-outlined">visibility</span>'
     }
     
     document.onclick = (e) => {e.target != inputPassword ? show.value = false : ''};
