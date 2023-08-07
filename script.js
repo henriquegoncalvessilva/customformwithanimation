@@ -7,7 +7,7 @@ let failOnce = false;
 let oldValue = "";
 
 const r = new rive.Rive({
-  src: "/rive.riv",
+  src: "rive.riv",
   canvas: document.getElementById("canvas"),
   autoplay: true,
   animations:'',
