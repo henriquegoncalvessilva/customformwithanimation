@@ -21,6 +21,11 @@ button{
 
 }
 
+canvas{
+    width: 100%;
+
+}
+
 #showHideBtn{
     display: flex;
     justify-content: center;
@@ -30,7 +35,6 @@ button{
 }
 
 .container{
-    width: 100%;
     z-index: 10;
 }
 
